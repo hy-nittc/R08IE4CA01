@@ -3,3 +3,5 @@
 
 hs_err_pid*
 .metals/
+metals.*
+and/test_run_dir/
