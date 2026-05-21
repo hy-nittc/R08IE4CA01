@@ -1,0 +1,63 @@
+$date
+2026-05-21T09:37+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module WireAndReg $end
+ $var wire 8 ! io_regnextOut $end
+ $var wire 1 " clock $end
+ $var wire 8 # wire $end
+ $var wire 8 $ io_wireOut $end
+ $var wire 8 % reg $end
+ $var wire 8 & io_aIn $end
+ $var wire 8 ' io_regOut $end
+ $var wire 1 ( reset $end
+ $var wire 8 ) nextreg $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0"
+b00000000 '
+b00000000 &
+b00000000 )
+0(
+b00000000 #
+b00000000 %
+b00000000 $
+b00000000 !
+$end
+#0
+1(
+#1
+1"
+#6
+0"
+b00001010 #
+b00001010 $
+b00001010 &
+0(
+#11
+b00001010 !
+1"
+b00001010 %
+b00001010 '
+b00001010 )
+#16
+0"
+b00011110 #
+b00011110 $
+b00011110 &
+#21
+b00011110 !
+1"
+b00011110 %
+b00011110 '
+b00011110 )
+#26
+0"
+b00000000 &
