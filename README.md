@@ -223,7 +223,7 @@ sbt test
 ### Wave Form
 
 ```bash
-surface &
+surfer &
 ```
 
 ## Submission

@@ -4,7 +4,8 @@ import org.scalatest.flatspec.AnyFlatSpec
 
 class SimpleTest extends AnyFlatSpec with ChiselScalatestTester {
   "LogicOperation" should "work" in {
-    test(new LogicOperation) { dut =>
+    test(new LogicOperation).withAnnotations(Seq(WriteVcdAnnotation))
+     { dut =>
             println("Start test")
             
             dut.io.aIn.poke(false.B)
