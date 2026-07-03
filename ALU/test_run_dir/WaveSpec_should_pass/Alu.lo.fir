@@ -1,0 +1,25 @@
+FIRRTL version 1.2.0
+circuit Alu :
+  module Alu : @[alu.scala 11:7]
+    input clock : Clock @[alu.scala 11:7]
+    input reset : UInt<1> @[alu.scala 11:7]
+    input io_a : UInt<16> @[alu.scala 12:16]
+    input io_b : UInt<16> @[alu.scala 12:16]
+    input io_fn : UInt<2> @[alu.scala 12:16]
+    output io_y : UInt<16> @[alu.scala 12:16]
+
+    node _T = eq(UInt<1>("h0"), io_fn) @[alu.scala 23:18]
+    node _io_y_T = add(io_a, io_b) @[alu.scala 24:28]
+    node _io_y_T_1 = tail(_io_y_T, 1) @[alu.scala 24:28]
+    node _T_1 = eq(UInt<1>("h1"), io_fn) @[alu.scala 23:18]
+    node _io_y_T_2 = sub(io_a, io_b) @[alu.scala 25:28]
+    node _io_y_T_3 = tail(_io_y_T_2, 1) @[alu.scala 25:28]
+    node _T_2 = eq(UInt<2>("h2"), io_fn) @[alu.scala 23:18]
+    node _io_y_T_4 = or(io_a, io_b) @[alu.scala 26:28]
+    node _T_3 = eq(UInt<2>("h3"), io_fn) @[alu.scala 23:18]
+    node _io_y_T_5 = and(io_a, io_b) @[alu.scala 27:28]
+    node _GEN_0 = mux(_T_3, _io_y_T_5, UInt<1>("h0")) @[alu.scala 20:10 23:18 27:21]
+    node _GEN_1 = mux(_T_2, _io_y_T_4, _GEN_0) @[alu.scala 23:18 26:21]
+    node _GEN_2 = mux(_T_1, _io_y_T_3, _GEN_1) @[alu.scala 23:18 25:21]
+    node _GEN_3 = mux(_T, _io_y_T_1, _GEN_2) @[alu.scala 23:18 24:21]
+    io_y <= _GEN_3

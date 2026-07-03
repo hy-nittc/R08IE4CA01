@@ -1,0 +1,52 @@
+$date
+2026-07-03T05:55+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module Base $end
+ $var wire 4 ! io_opcode $end
+ $var wire 3 " io_aluOp $end
+ $var wire 1 # clock $end
+ $var wire 1 $ reset $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0#
+0$
+b0000 !
+b000 "
+$end
+#0
+1$
+#1
+1#
+#6
+0#
+0$
+#11
+1#
+#16
+b0001 !
+b001 "
+0#
+#21
+1#
+#26
+b0010 !
+b010 "
+0#
+#31
+1#
+#36
+b0011 !
+b011 "
+0#
+#41
+1#
+#46
+0#

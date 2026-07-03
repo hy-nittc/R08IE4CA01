@@ -1,0 +1,63 @@
+$date
+2026-06-26T12:22+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module Decoder $end
+ $var wire 3 ! io_aluOp $end
+ $var wire 1 " io_regWrite $end
+ $var wire 1 # io_memRead $end
+ $var wire 4 $ io_opcode $end
+ $var wire 1 % clock $end
+ $var wire 1 & reset $end
+ $var wire 1 ' io_memWrite $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b0000 $
+0"
+0#
+0%
+0&
+0'
+b000 !
+$end
+#0
+1"
+1&
+#1
+1%
+#6
+0%
+0&
+#11
+1%
+#16
+b001 !
+b0001 $
+0%
+#21
+1%
+#26
+b000 !
+1#
+b0010 $
+0%
+#31
+1%
+#36
+0"
+0#
+b0011 $
+0%
+1'
+#41
+1%
+#46
+b0000 $
+0%

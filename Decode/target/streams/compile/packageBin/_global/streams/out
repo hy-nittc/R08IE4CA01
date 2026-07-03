@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/hideaki/work/R08IE4CA01/Decode/target/scala-2.13/decode_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	printVerilog$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hideaki/work/R08IE4CA01/Decode/target/scala-2.13/classes/printVerilog$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AluOp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hideaki/work/R08IE4CA01/Decode/target/scala-2.13/classes/AluOp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	printVerilog.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hideaki/work/R08IE4CA01/Decode/target/scala-2.13/classes/printVerilog.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Opcode.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hideaki/work/R08IE4CA01/Decode/target/scala-2.13/classes/Opcode.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	printVerilog$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hideaki/work/R08IE4CA01/Decode/target/scala-2.13/classes/printVerilog$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hideaki/work/R08IE4CA01/Decode/target/scala-2.13/classes/SimpleTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Opcode$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hideaki/work/R08IE4CA01/Decode/target/scala-2.13/classes/Opcode$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Decode.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hideaki/work/R08IE4CA01/Decode/target/scala-2.13/classes/Decode.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Decode$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hideaki/work/R08IE4CA01/Decode/target/scala-2.13/classes/Decode$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AluOp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hideaki/work/R08IE4CA01/Decode/target/scala-2.13/classes/AluOp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

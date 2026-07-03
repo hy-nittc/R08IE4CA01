@@ -1,8 +1,3 @@
-//> using scala "2.13.14"
-//> using dep "edu.berkeley.cs::chisel3:3.6.1"
-//> using plugin "edu.berkeley.cs:::chisel3-plugin:3.6.1"
-//> using options "-unchecked", "-deprecation", "-language:reflectiveCalls", "-feature", "-Xfatal-warnings", "-Ywarn-unused", "-Ymacro-annotations"
-
 import chisel3._
 import Opcode._
 import AluOp._
@@ -65,8 +60,6 @@ class Decode extends Module {
         val ctrlSignalsOut = Output(UInt(4.W))
     })
 
-//Use MuxCase when you have Boolean conditions and MuxLookup for key-value matching.
-/*
     io.ctrlSignalsOut := MuxCase(0.U, Seq(
         (io.opcodeIn === NOP.U) -> nop.U,  // Add
         (io.opcodeIn === ADD.U) -> and.U,  // Subtract
@@ -74,17 +67,7 @@ class Decode extends Module {
         (io.opcodeIn === AND.U) -> and.U,  // OR
         (io.opcodeIn === OR.U) -> or.U   // XOR
     ))
-*/
 
-    io.ctrlSignalsOut := Mux(0.U, Seq(
-        (io.opcodeIn === NOP.U) -> nop.U,  // Add
-        (io.opcodeIn === ADD.U) -> and.U,  // Subtract
-        (io.opcodeIn === SUB.U) -> sub.U,  // AND
-        (io.opcodeIn === AND.U) -> and.U,  // OR
-        (io.opcodeIn === OR.U) -> or.U   // XOR
-    ))
-
-// MuxLookup(idx, default)(Seq(0.U -> a, 1.U -> b, ...))
 
 }
 

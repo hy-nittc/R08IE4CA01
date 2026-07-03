@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(WaveSpec, org.scalatest.tools.Framework$$anon$1@463e7736, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SimpleTest, org.scalatest.tools.Framework$$anon$1@463e7736, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mWaveSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mWaveSpec[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSimpleTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSimpleTest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 562 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WaveSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleTest[0m

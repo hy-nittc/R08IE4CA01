@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/hideaki/work/R08IE4CA01/ALU/target/scala-2.13/alu_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	printVerilogCode$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hideaki/work/R08IE4CA01/ALU/target/scala-2.13/classes/printVerilogCode$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WaveSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hideaki/work/R08IE4CA01/ALU/target/scala-2.13/classes/WaveSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	printVerilogCode.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hideaki/work/R08IE4CA01/ALU/target/scala-2.13/classes/printVerilogCode.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hideaki/work/R08IE4CA01/ALU/target/scala-2.13/classes/SimpleTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	printVerilogCode$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hideaki/work/R08IE4CA01/ALU/target/scala-2.13/classes/printVerilogCode$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Alu.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hideaki/work/R08IE4CA01/ALU/target/scala-2.13/classes/Alu.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Alu$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/hideaki/work/R08IE4CA01/ALU/target/scala-2.13/classes/Alu$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
