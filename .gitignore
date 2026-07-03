@@ -3,6 +3,7 @@
 
 hs_err_pid*
 .metals/
+.vscode/
 metals.*
 and/test_run_dir/
 target/
