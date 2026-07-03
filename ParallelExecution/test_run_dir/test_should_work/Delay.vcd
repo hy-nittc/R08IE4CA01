@@ -1,0 +1,80 @@
+$date
+2026-07-03T08:22+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module Delay $end
+ $var wire 4 ! a $end
+ $var wire 4 " b $end
+ $var wire 4 # io_bOut $end
+ $var wire 4 $ b_REG $end
+ $var wire 4 % io_aOut $end
+ $var wire 1 & clock $end
+ $var wire 4 ' io_aIn $end
+ $var wire 1 ( reset $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b0000 $
+b0000 %
+b0000 "
+b0000 #
+b0000 !
+0&
+0(
+b0000 '
+$end
+#0
+1(
+#1
+1&
+#6
+0&
+b0001 '
+0(
+#11
+b0001 !
+b0001 $
+b0001 %
+1&
+#16
+0&
+#21
+b0001 "
+b0001 #
+1&
+#26
+0&
+b0010 '
+#31
+b0010 !
+b0010 $
+b0010 %
+1&
+#36
+0&
+#41
+b0010 "
+b0010 #
+1&
+#46
+0&
+b0011 '
+#51
+b0011 !
+b0011 $
+b0011 %
+1&
+#56
+0&
+#61
+b0011 "
+b0011 #
+1&
+#66
+0&
